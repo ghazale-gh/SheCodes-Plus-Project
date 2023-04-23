@@ -1,0 +1,87 @@
+body {
+  font-family: sans-serif;
+}
+.main {
+  margin: 10px auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+.input-search {
+  width: 50%;
+  margin-left: 50%;
+  padding: 5px;
+}
+.button {
+  width: 120px;
+  height: 50px;
+  margin-left: 0;
+  background-color: rgb(166, 191, 236);
+  border: none;
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-weight: 500;
+}
+#input-button {
+  background-color: rgb(166, 191, 236);
+}
+#input-button:hover {
+  background-color: rgb(125, 152, 202);
+  border: 1px solid rgb(69, 93, 141);
+}
+#current_button {
+  background-color: rgb(201, 110, 207);
+}
+#current_button:hover {
+  background-color: rgb(172, 92, 178);
+  border: 1px solid rgb(106, 54, 109);
+}
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+p {
+  text-align: center;
+}
+.day {
+  font-weight: 700;
+}
+.time {
+  font-size: 13px;
+}
+
+.data {
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: 10px;
+}
+
+.days {
+  margin: 30px auto;
+}
+i {
+  font-size: 50px;
+  margin-top: 10px;
+}
+.fa-snowflake,
+.fa-cloud,
+.fa-cloud-rain,
+.fa-cloud-sun {
+  color: #0065b8;
+}
+.fa-sun {
+  color: #fce700;
+}
+
+#fahrenheit,
+#celsius {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+}
