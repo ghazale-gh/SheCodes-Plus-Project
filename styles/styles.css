@@ -85,3 +85,8 @@ i {
 a {
   text-decoration: none;
 }
+
+#git_repo {
+  font-size: small;
+  text-align: center;
+}
